@@ -3,7 +3,7 @@ import heroimg from '../../../public/demo.jpg'
 const HeroSection = () => {
   return (
     <div
-      className="relative -top-52 sm:-top-48  md:-top-[88px] overflow-hidden bg-cover bg-center h-screen "
+      className="relative -top-44  sm:-top-48  md:-top-[88px] overflow-hidden bg-cover bg-center h-[752px] sm:h-screen "
       style={{ backgroundImage: `url(${heroimg})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -33,13 +33,13 @@ const HeroSection = () => {
       <div className="absolute bottom-0 msm:-bottom-4 lg:bottom-0 flex flex-col md:flex-row justify-between items-center  min-w-full ">
         <div className=" container ml-6   py-5  sm:py-12 md:py-16  md:pl-10 lg:pl-14 llg:pl-28 xl:pl-40 flex justify-start items-center  w-full md:w-1/2 space-x-8 sm:space-x-24 md:space-x-16">
           <div className="text-white text-left w-full">
-            <h3 className="text-2xl md:text-4xl font-bold w-full">
+            <h3 className="text-xl sm:text-2xl md:text-4xl font-bold w-full">
               300+
             </h3>
             <p className="text-sm sm:text-lg md:text-xl">Happy Clients</p>
           </div>
           <div className="text-white text-left w-full">
-            <h3 className="text-2xl md:text-4xl font-bold w-full">
+            <h3 className="text-xl sm:text-2xl md:text-4xl font-bold w-full">
               80+
             </h3>
             <p className="text-sm sm:text-lg md:text-xl">
@@ -47,7 +47,7 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="text-white text-left w-full ">
-            <h3 className="text-2xl md:text-4xl font-bold w-full">
+            <h3 className="text-xl sm:text-2xl md:text-4xl font-bold w-full">
               20+
             </h3>
             <p className="text-sm sm:text-lg md:text-xl">Awards Winning</p>
@@ -55,9 +55,9 @@ const HeroSection = () => {
         </div>
 
         {/* Project Years Section */}
-        <div className=" flex justify-start items-center text-white gap-3 sm:gap-4  lg:gap-8 msm:h-48 overflow-y-hidden  lg:h-auto w-full md:w-1/2 h-full bg-gradient-to-r from-[#04AFFC] to-[#026896] py-8  ssm:py-12 msm:py-10 md:py-14 px-4  lg:px-8 ">
+        <div className=" flex justify-start items-center text-white gap-2 sm:gap-4  lg:gap-8 msm:h-48 overflow-y-hidden  lg:h-auto w-full md:w-1/2 h-full bg-gradient-to-r from-[#04AFFC] to-[#026896] py-5  sm:py-12 msm:py-10 md:py-14 px-4  lg:px-8 ">
           <div className="text-center ">
-            <h3 className="text-lg ssm:text-xl md:text-2xl font-bold p-4 esm:p-5">
+            <h3 className="text-base ssm:text-xl md:text-2xl font-bold p-4 esm:p-5">
               Project
             </h3>
           </div>
