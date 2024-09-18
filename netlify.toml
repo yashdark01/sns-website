@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "build"  # Adjust this to your build output directory
+  publish = "dist"  # Adjust this to your build output directory
 
 [[redirects]]
   from = "/*"
