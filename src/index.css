@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scrollbar-width: none;
+  overflow-x:hidden;
+}
+body{
+  overflow-x: hidden;
+}
+
+h1,  h2, h3, p {
+  overflow: hidden;
+}
+.element {
+  position: relative;
+  display: inline-block;
+  color: black;
+   /* Default color to match the start of the gradient */
+}
+
+.element::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  background: linear-gradient(to right, #04AFFC, #026896);
+  left: 50%;
+  bottom: -4px;
+  transform: translateX(-50%);
+  transition: width 0.4s ease-in-out;
+  z-index: 100;
+  
+  
+}
+
+.element:hover::after {
+  width: 120%;
+  height: 10%;
+  z-index: 100;
+}
+
+@media (max-width: 640px) {
+  .element:hover::after {
+    width: 120%;
+    height: 1%;
+  }
+}
+
+/* @keyframes fade-left {
+  0% {
+      opacity: 0;
+      transform: translateX(12rem);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+@keyframes fade-right {
+  0% {
+      opacity: 0;
+      transform: translateX(-12rem );
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+@keyframes fade-up {
+  0% {
+      opacity: 0;
+      transform: translateY(12rem );
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+@keyframes fade-down {
+  0% {
+      opacity: 0;
+      transform: translateY(-12rem );
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+} */
+
+.animate-in {
+  
+  animation-duration: 2000ms!important;
+ 
+}
+.solution .animate-in {
+  
+  animation-duration: 4000ms!important;
+ 
+}
