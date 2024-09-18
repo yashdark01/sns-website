@@ -1,7 +1,8 @@
 import { useContext, useEffect } from "react";
 import UserContext from "../../context/UserContext";
-import Button from "../../Components/Button.jsx"
-import solutionimg from '../../../public/demo.jpg'
+import Button from "../../Components/Button"
+import solutionimg from"../../../public/demo.jpg"
+
 const solutions = [
     { title: 'Supporting Saudi Vision 2030', icon: 'a',  },
     { title: 'Sustainable Growth', icon: 'b' },
@@ -23,10 +24,10 @@ const NationalSolutions = () => {
     }, [user.solutionsTrigger]);
 
   return (
-    <div className="container  h-full mx-auto py-6 bg-white esm:py-8 ssm:py-10 msm:py-12 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-16 ">
+    <div className="container  h-full mx-auto py-6 bg-white esm:py-8 ssm:py-10 msm:py-12 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12 ">
       
       {/* Image Section */}
-      <div className="relative z-0 overflow-y-hidden   h-full w-full lg:w-[40%]">
+      <div className="relative -left-6 z-0 overflow-y-hidden   h-full w-full lg:w-[50%]">
         <div
         data-aos="zoom-in-right"
         className={` relative z-0 ${user.solutionsTrigger ? "animate-in fade-in" : ""} `}
@@ -34,14 +35,14 @@ const NationalSolutions = () => {
         <img
           src={solutionimg}
           alt="National Solutions"
-          className="w-auto h-[550px] shadow-lg relative z-0"
+          className="w-auto h-[550px] shadow-lg relative left-10 z-0"
         />
         </div>
         
         
         {/* Overlay Items */}
         <div
-        data-aos="fade-right" className={`absolute z-[9999] left-0 top-16   space-y-4 h-full w-full  ${user.solutionsTrigger ? "animate-in slide-in-from-left" : ""} `}>
+        data-aos="fade-right" className={`absolute z-[9999] left-1 top-[40%]   space-y-4 h-full w-[80%]  ${user.solutionsTrigger ? "animate-in slide-in-from-left" : ""} `}>
           {solutions.map((solution, index) => (
             <div
               key={index}
