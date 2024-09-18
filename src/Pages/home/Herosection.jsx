@@ -55,7 +55,7 @@ const HeroSection = () => {
         </div>
 
         {/* Project Years Section */}
-        <div className=" flex justify-start items-center text-white gap-3 sm:gap-4  lg:gap-8 msm:h-48  lg:h-auto w-full md:w-1/2 h-full bg-gradient-to-r from-[#04AFFC] to-[#026896] py-8  ssm:py-12 msm:py-10 md:py-14 px-4  lg:px-8 ">
+        <div className=" flex justify-start items-center text-white gap-3 sm:gap-4  lg:gap-8 msm:h-48 overflow-y-hidden  lg:h-auto w-full md:w-1/2 h-full bg-gradient-to-r from-[#04AFFC] to-[#026896] py-8  ssm:py-12 msm:py-10 md:py-14 px-4  lg:px-8 ">
           <div className="text-center ">
             <h3 className="text-lg ssm:text-xl md:text-2xl font-bold p-4 esm:p-5">
               Project
