@@ -1,10 +1,10 @@
 import React from "react";
-
+import heroimg from '../../../public/demo.jpg'
 const HeroSection = () => {
   return (
     <div
       className="relative -top-52 sm:-top-48  md:-top-[88px] overflow-hidden bg-cover bg-center h-screen "
-      style={{ backgroundImage: "url('../../../public/demo.jpg')" }}
+      style={{ backgroundImage: `url(${heroimg})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
