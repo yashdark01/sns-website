@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../Components/Button.jsx";
 import FeaturesSection from "./FeautersSection.jsx";
+import aboutimg from "../../../public/demo.jpg"
 
 const AboutSection = () => {
   return (
@@ -26,7 +27,7 @@ const AboutSection = () => {
         </div>
         <div className="md:w-1/2 mt-4 md:mt-0">
           <img
-            src="../../../public/demo.jpg"
+            src={aboutimg}
             alt="Team Collaboration"
             className="rounded-lg shadow-md overflow-hidden w-full"
           />

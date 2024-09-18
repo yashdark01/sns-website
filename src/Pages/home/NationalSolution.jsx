@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import UserContext from "../../context/UserContext";
 import Button from "../../Components/Button.jsx"
-
+import solutionimg from '../../../public/demo.jpg'
 const solutions = [
     { title: 'Supporting Saudi Vision 2030', icon: 'a',  },
     { title: 'Sustainable Growth', icon: 'b' },
@@ -32,7 +32,7 @@ const NationalSolutions = () => {
         className={` relative z-0 ${user.solutionsTrigger ? "animate-in fade-in" : ""} `}
         >
         <img
-          src="../../../public/demo.jpg"
+          src={solutionimg}
           alt="National Solutions"
           className="w-auto h-[550px] shadow-lg relative z-0"
         />
