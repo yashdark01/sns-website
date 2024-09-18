@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div
-      className="relative -top-52 sm:-top-48 md:-top-[88px] overflow-hidden bg-cover bg-center h-screen "
+      className="relative -top-52 sm:-top-48  md:-top-[88px] overflow-hidden bg-cover bg-center h-screen "
       style={{ backgroundImage: "url('../../../public/demo.jpg')" }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -30,8 +30,8 @@ const HeroSection = () => {
           Discover More
         </a>
       </div>
-      <div className="absolute bottom-0 flex flex-col md:flex-row justify-between items-center min-w-full ">
-        <div className=" container ml-6  py-5  sm:py-12 md:py-16  md:pl-10 lg:pl-14 llg:pl-28 xl:pl-40 flex justify-start items-center w-full md:w-1/2 space-x-8 sm:space-x-24 md:space-x-16">
+      <div className="absolute bottom-0 msm:-bottom-4 lg:bottom-0 flex flex-col md:flex-row justify-between items-center  min-w-full ">
+        <div className=" container ml-6   py-5  sm:py-12 md:py-16  md:pl-10 lg:pl-14 llg:pl-28 xl:pl-40 flex justify-start items-center  w-full md:w-1/2 space-x-8 sm:space-x-24 md:space-x-16">
           <div className="text-white text-left w-full">
             <h3 className="text-2xl md:text-4xl font-bold w-full">
               300+
@@ -55,7 +55,7 @@ const HeroSection = () => {
         </div>
 
         {/* Project Years Section */}
-        <div className=" flex justify-start items-center text-white gap-3 sm:gap-4  md:gap-8 w-full md:w-1/2 h-full bg-gradient-to-r from-[#04AFFC] to-[#026896] py-8  ssm:py-12 msm:py-10 md:py-14 px-4  msm:px-14 md:px-8 ">
+        <div className=" flex justify-start items-center text-white gap-3 sm:gap-4  lg:gap-8 msm:h-48  lg:h-auto w-full md:w-1/2 h-full bg-gradient-to-r from-[#04AFFC] to-[#026896] py-8  ssm:py-12 msm:py-10 md:py-14 px-4  lg:px-8 ">
           <div className="text-center ">
             <h3 className="text-lg ssm:text-xl md:text-2xl font-bold p-4 esm:p-5">
               Project
@@ -68,7 +68,7 @@ const HeroSection = () => {
             <p className="text-xs ssm:text-lg"> Operated</p>
           </div>
           <div className=" w-2/3 md:w-1/3">
-            <p className="text-xs md:text-base  md:ml-4">
+            <p className="text-xs msm:text-sm lg:text-base  md:ml-4">
               As a trusted general project that has been operating for 25 years,
               our commitment is always to prioritize our client satisfaction.
             </p>
