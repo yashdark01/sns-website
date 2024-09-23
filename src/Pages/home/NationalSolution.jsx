@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import UserContext from "../../context/UserContext";
 import Button from "../../Components/Button"
-import solutionimg from"../../../public/demo.jpg"
+import solutionimg from"../../../public/Rectangle 13.png"
 
 const solutions = [
     { title: 'Supporting Saudi Vision 2030', icon: 'a',  },
@@ -30,7 +30,7 @@ const NationalSolutions = () => {
       <div className="relative -left-6 z-0 overflow-y-hidden   h-full w-full lg:w-[50%]">
         <div
         data-aos="zoom-in-right"
-        className={` relative z-0 ${user.solutionsTrigger ? "animate-in fade-in" : ""} `}
+        className={` relative z-0 rounded-2xl ${user.solutionsTrigger ? "animate-in fade-in" : ""} `}
         >
         <img
           src={solutionimg}

@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../Components/Button.jsx";
 import FeaturesSection from "./FeautersSection.jsx";
-import aboutimg from "../../../public/demo.jpg"
+import aboutimg from "../../../public/Rectangle 7.png"
 
 const AboutSection = () => {
   return (
