@@ -38,15 +38,15 @@ const FeaturesSection = () => {
                 <div 
                     key={index}
                     data-aos={feature.aosAnimation}
-                    className={`flex relative gap-12 flex-col items-center text-center p-6 ${feature.animation}`}
+                    className={`flex relative gap-6 ssm:gap-8 msm:gap-12 flex-col items-center text-center p-6 ${feature.animation}`}
                 >
                     {/* Icon */}
                     <div className= " flex justify-center items-center bg-white p-6 rounded-full bg-gradient-to-r from-[#04AFFC] to-[#026896] shadow-sm shadow-yellow-200">
                         <span className="flex justify-center items-center">{feature.icon}</span>
                     </div>
                     {/* Title */}
-                    <div className="flex justify-center items-center h-32 w-full">
-                        <h3 className="flex justify-center items-center text-white text-center text-base sm:text-lg md:text-base lg:text-xl font-semibold h-full w-full rounded-2xl bg-gradient-to-r from-[#04AFFC] to-[#026896]">
+                    <div className="flex justify-center items-center h-24 msm:h-32 w-full ">
+                        <h3 className="flex justify-center items-center text-white text-center px-2 text-sm sm:text-lg md:text-base lg:text-xl font-semibold h-full w-full rounded-2xl bg-gradient-to-r from-[#04AFFC] to-[#026896]">
                             {feature.title}
                         </h3>
                     </div>
