@@ -22,7 +22,7 @@ const Header = () => {
       <div className='flex items-center justify-between p-4 md:p-6'>
         {/* Logo */}
         <div className='w-1/6 msm:w-1/5 flex justify-center items-center'>
-          <img src={logo} alt="logo" className='h-10 w-full ssm:h-8 md:h-12'  />
+          <img src={logo} alt="logo" className='h-10 ssm:h-8 md:h-12'  />
         </div>
 
         {/* Desktop Menu */}
