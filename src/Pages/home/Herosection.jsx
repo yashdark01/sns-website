@@ -3,7 +3,7 @@ import heroimg from "../../../public/demo.png";
 const HeroSection = () => {
   return (
     <div
-      className="relative -top-44  sm:-top-48  lg:-top-[88px] overflow-hidden bg-cover bg-center h-[800px] ssm:h-[750px] msm:h-[700px]  md:h-[1000px] lg:h-[752px] llg:h-[1000px] "
+      className="relative -top-52 ssm:-top-44  sm:-top-48  lg:-top-[88px] overflow-hidden bg-cover bg-center h-[800px] ssm:h-[750px] msm:h-[700px]  md:h-[1000px] lg:h-[752px] llg:h-[1000px] "
       style={{ backgroundImage: `url(${heroimg})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>

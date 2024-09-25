@@ -15,7 +15,7 @@ const Home = () => {
       <section id="heroSection" className="h-full z-30 lg:h-auto">
         <HeroSection />
       </section>
-      <div className=" relative z-40 -top-36 msm:-top-40  md:-top-36 lg:top-0">
+      <div className=" relative z-40 -top-44 ssm:-top-36 msm:-top-40  md:-top-36 lg:top-0">
         <section id="aboutSection">
           <AboutSection />
         </section>
