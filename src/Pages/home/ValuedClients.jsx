@@ -27,7 +27,7 @@ const ValuedClients = () => {
   };
 
   return (
-    <div className=" min-w-full relative bg-white  my-8 esm:my-12 msm:my-16 md:my-36 lg:my-44">
+    <div className=" min-w-full relative bg-white my-6  ssm:my-8  msm:my-16 md:my-36 lg:my-44">
         <img src={frame1} alt="" className='absolute min-w-full h-full' />
       <div className=" container  space-y-8 text-center  min-w-full py-24 lg:py-36">
 

@@ -14,26 +14,26 @@ const FeaturesSection = () => {
     const features = [
         {
             title: "Proven Expertise and Success",
-            icon: <HiLink className="size-16 text-white"/> , // Replace with actual icon path
+            icon: <HiLink className="size-12 msm:size-16 text-white"/> , // Replace with actual icon path
             animation: user.aboutTrigger ? "animate-in slide-in-from-top" : "",
             aosAnimation :"fade-up",
         },
         {
             title: "Comprehensive Technology and Business Consulting",
-            icon: <HiLink className="size-16 text-white"/>, // Replace with actual icon path
+            icon: <HiLink className="size-12 msm:size-16 text-white"/>, // Replace with actual icon path
             animation: user.aboutTrigger ? "animate-in slide-in-from-bottom " : "",
             aosAnimation :"fade-down",
         },
         {
             title: "Alignment with Vision 2030",
-            icon: <HiLink className="size-16 text-white"/>, // Replace with actual icon path
+            icon: <HiLink className="size-12 msm:size-16 text-white"/>, // Replace with actual icon path
             animation: user.aboutTrigger ? "animate-in slide-in-from-top " : "",
             aosAnimation :"fade-up",
         },
     ];
 
     return (
-        <div className="container relative z-50 my-2 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-16">
+        <div className="container relative z-50 ssm:my-2 mx-auto grid grid-cols-1 md:grid-cols-3 sm:gap-8 md:gap-2 lg:gap-8 px-4 py-6 ssm:py-16">
             {features.map((feature, index) => (
                 <div 
                     key={index}
@@ -46,7 +46,7 @@ const FeaturesSection = () => {
                     </div>
                     {/* Title */}
                     <div className="flex justify-center items-center h-32 w-full">
-                        <h3 className="flex justify-center items-center text-white text-center text-xl font-semibold h-full w-full rounded-2xl bg-gradient-to-r from-[#04AFFC] to-[#026896]">
+                        <h3 className="flex justify-center items-center text-white text-center text-base sm:text-lg md:text-base lg:text-xl font-semibold h-full w-full rounded-2xl bg-gradient-to-r from-[#04AFFC] to-[#026896]">
                             {feature.title}
                         </h3>
                     </div>

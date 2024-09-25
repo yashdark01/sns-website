@@ -3,7 +3,7 @@ import React from "react";
 const LetsConnect = () => {
   return (
     
-      <div className="relative bottom-0 z-50 overflow-hidden h-auto container mx-auto py-6 esm:py-8 ssm:py-10 msm:py-12 px-2 esm:px-3 ssm:px-4 msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col lg:flex-row items-center justify-between gap-10 bg-gradient-to-r from-[#04AFFC] to-[#026896] rounded-3xl">
+      <div className="relative bottom-0 z-50 overflow-hidden h-auto container mx-auto mt-6 ssm:mt-0 py-6 esm:py-8 ssm:py-10 msm:py-12 px-3 ssm:px-4 msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col lg:flex-row items-center justify-between gap-10 bg-gradient-to-r from-[#04AFFC] to-[#026896] rounded-3xl">
         {/* Background Elements */}
         <div className="absolute top-0 left-0 w-full h-full z-0">
           {/* Add SVGs or background images here */}
@@ -30,9 +30,9 @@ const LetsConnect = () => {
           <input
             type="email"
             placeholder="Email ID"
-            className="w-2/3 p-4 esm:p-5 ssm:p-6 msm:p-7 lg:p-8 h-12 esm:h-14 ssm:h-16 msm:h-18 lg:h-20 rounded-l-2xl border-2 border-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-white bg-white opacity-90"
+            className="w-2/3 p-4 text-xs ssm:text-base esm:p-5 ssm:p-6 msm:p-7 lg:p-8 h-12 esm:h-14 ssm:h-16 msm:h-18 lg:h-20 rounded-l-2xl border-2 border-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-white bg-white opacity-90"
           />
-          <button className="flex justify-center items-center w-1/3 bg-black text-white font-semibold  h-12 esm:h-14 ssm:h-16 msm:h-18 lg:h-20 rounded-r-2xl hover:bg-gray-800 transition-colors duration-300">
+          <button className="flex justify-center items-center w-1/3 bg-black text-xs ssm:text-base text-white font-semibold  h-12 esm:h-14 ssm:h-16 msm:h-18 lg:h-20 rounded-r-2xl hover:bg-gray-800 transition-colors duration-300">
             Submit Now
           </button>
         </div>

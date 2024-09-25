@@ -24,7 +24,7 @@ const NationalSolutions = () => {
     }, [user.solutionsTrigger]);
 
   return (
-    <div className="container  h-full mx-auto py-6 bg-white esm:py-8 ssm:py-10 msm:py-12 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12 ">
+    <div className="container  h-full mx-auto bg-white py-8 ssm:py-10 msm:py-12 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col lg:flex-row items-center space-y-12 md:space-y-8 lg:space-y-0 lg:space-x-12 ">
       
       {/* Image Section */}
       <div className="relative -left-6 z-0 overflow-y-hidden   h-full w-full lg:w-[50%]">
@@ -35,18 +35,18 @@ const NationalSolutions = () => {
         <img
           src={solutionimg}
           alt="National Solutions"
-          className="w-auto h-[550px] shadow-lg relative left-10 z-0"
+          className="w-auto h-[450px] ssm:h-[550px] shadow-lg relative left-6 ssm:left-8 msm:left-9 md:left-10 z-0"
         />
         </div>
         
         
         {/* Overlay Items */}
         <div
-        data-aos="fade-right" className={`absolute z-[9999] left-1 top-[40%]   space-y-4 h-full w-[80%]  ${user.solutionsTrigger ? "animate-in slide-in-from-left" : ""} `}>
+        data-aos="fade-right" className={`absolute z-[9999] left-3 sm:left-1 top-[40%]   space-y-4 h-full w-[80%]  ${user.solutionsTrigger ? "animate-in slide-in-from-left" : ""} `}>
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className={`bg-blue-100 p-2 esm:p-3 ssm:p-4 rounded-lg flex justify-center items-center shadow-md  min-w-[70%]`}
+              className={`bg-blue-100 p-2 esm:p-3 ssm:p-4 rounded-lg flex justify-center items-center shadow-md  max-w-[70%] llg:max-w-[60%]`}
               style={{ marginLeft: `${index * 10}%` }}
             >
               <span className="text-gray-800 text-xs md:text-base font-semibold w-full">
@@ -62,7 +62,7 @@ const NationalSolutions = () => {
 
       {/* Text Section */}
       <div
-      data-aos="fade-left" className={`lg:w-[60%] space-y-4 esm:space-y-6 ssm:space-y-8 lg:space-y-10 pb-4 ${user.solutionsTrigger ? "animate-in slide-in-from-right" : ""} `}>
+      data-aos="fade-left" className={`lg:w-[60%] space-y-2 ssm:space-y-8 lg:space-y-10 pb-4 ${user.solutionsTrigger ? "animate-in slide-in-from-right" : ""} `}>
         <h2 className="text-xl esm:text-2xl ssm:text-3xl msm:text-4xl sm:text-4xl lg:text-5xl llg:text-6xl font-medium text-gray-900 ">
           Smart National Solutions Objectives
         </h2>

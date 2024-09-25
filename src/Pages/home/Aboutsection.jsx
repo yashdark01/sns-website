@@ -5,14 +5,14 @@ import aboutimg from "../../../public/Rectangle 7.png"
 
 const AboutSection = () => {
   return (
-    <div className="bg-white h-full min-w-full relative">
+    <div className="bg-white h-full min-w-full relative ">
       
-      <div className="container mx-auto sm:pt-8 mb-2 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col md:flex-row gap-8 items-center">
+      <div className="container mx-auto pt-8 mb-2 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col md:flex-row gap-8 items-center">
         <div className="md:w-1/2 space-y-6">
         <h2 className="text-sm esm:text-base ssm:text-lg lg:text-[22px] font-sans font-bold text-primary  text-gray-800">
           Why Choose Us ---
         </h2>
-          <h3 className="text-xl esm:text-2xl ssm:text-3xl msm:text-4xl sm:text-4xl lg:text-5xl llg:text-6xl font-medium text-gray-900">
+          <h3 className="text-xl py-1 esm:text-2xl ssm:text-3xl msm:text-4xl sm:text-4xl lg:text-5xl llg:text-6xl font-medium text-gray-900">
             Innovation Cutting-edge Digital Transformation
           </h3>
           <p className="text-xs esm:text-sm ssm:text-base  ms:text-lg llg:text-xl xl:text-2xl font-light mt-4">
