@@ -3,16 +3,19 @@ import heroimg from "../../../public/demo.png";
 const HeroSection = () => {
   return (
     <div
-      className="relative -top-52 ssm:-top-44  sm:-top-48  lg:-top-[88px] overflow-hidden bg-cover bg-center h-[800px] ssm:h-[750px] msm:h-[700px]  md:h-[1000px] lg:h-[752px] llg:h-[1000px] "
+      className="relative -top-52 ssm:-top-44  sm:-top-48  lg:-top-[88px] overflow-hidden bg-cover bg-center h-[800px] ssm:h-[750px] msm:h-[700px]  md:h-[1000px] lg:h-[804px] llg:h-[1000px] "
       style={{ backgroundImage: `url(${heroimg})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       <div className=" relative container overflow-hidden mx-auto py-8  ssm:py-16 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40  flex flex-col items-start justify-center text-left h-full">
         {/* Main Heading */}
-        <h1 className="text-3xl sm:text-4xl msm:text-4xl md:text-5xl lg:text-6xl llg:text-8xl py-2 text-white scroll-none overflow-hidden animate-fade-up">
-          Your Top Choice For <br /> Digital Transformation Solutions
-        </h1>
+        <p className="text-3xl sm:text-4xl msm:text-4xl md:text-5xl lg:text-6xl llg:text-8xl font-semibold py-2 text-white scroll-none overflow-hidden animate-fade-up">
+          Your Top Choice For</p>
+           <p className="text-3xl sm:text-4xl msm:text-4xl md:text-5xl lg:text-6xl llg:text-8xl font-semibold py-2 text-white scroll-none overflow-hidden animate-fade-up"> Digital Transformation </p>
+
+            <p className="text-[#026896] animation-colorChange text-3xl sm:text-4xl msm:text-4xl md:text-5xl lg:text-6xl llg:text-8xl font-semibold py-2 scroll-none overflow-hidden animate-fade-up">Solutions</p>
+    
 
         {/* Subheading */}
         <p className="text-base esm:text-xs ssm:text-sm md:text-xl llg:text-2xl text-white mt-2 sm:mt-4 max-w-3xl animate-fade-down">
@@ -25,7 +28,7 @@ const HeroSection = () => {
         {/* Call-to-Action Button */}
         <a
           href="#"
-          className=" mt-2 sm:mt-4 md:mt-8 inline-block bg-blue-600 text-white text-base esm:text-xs sm:text-lg md:text-xl llg:text-2xl font-medium  md:py-2 esm:py-2 llg:py-4 px-5 llg:px-8 rounded-md shadow hover:bg-blue-700 transition duration-300 "
+          className=" mt-2 sm:mt-4 md:mt-8 inline-block  bg-gradient-to-r from-[#04AFFC] to-[#026896] text-white text-base esm:text-xs sm:text-lg md:text-xl llg:text-2xl font-medium  esm:py-2 md:py-4  llg:py-4 px-5 llg:px-8 rounded-xl shadow hover:bg-blue-700 transition duration-300 "
         >
           Discover More
         </a>

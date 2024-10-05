@@ -44,7 +44,7 @@ const ValuedClients = () => {
             <Slider {...settings} className="mt-10 min-w-full">
           {clients.map((client, index) => (
             <div key={index} className="flex flex-col justify-center gap-4 items-center min-w-full">
-             <img src={frame2} alt="" className=' h-16 ssm:h-20 md:h-24 w-full' />
+             <img src={frame2} alt="" className=' h-16 ssm:h-20 md:h-24 lg:h-32 llg:h-40 w-full' />
             </div>
           ))}
         </Slider>
