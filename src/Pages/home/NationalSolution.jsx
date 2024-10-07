@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import UserContext from "../../context/UserContext";
 import {ButtonOne} from "../../Components/Button"
-import solutionimg from"../../../public/Rectangle 13.png"
+import National from '../../assets/National.png'
 import { BsGraphUpArrow } from "react-icons/bs";
 import { GiProcessor } from "react-icons/gi";
 const solutions = [
@@ -34,15 +34,15 @@ const NationalSolutions = () => {
         className={` relative z-0 rounded-2xl ${user.solutionsTrigger ? "animate-in fade-in" : ""} `}
         >
         <img
-          src={solutionimg}
+          src={National}
           alt="National Solutions"
-          className="w-auto h-[450px] ssm:h-[550px] shadow-lg relative left-6 ssm:left-8 msm:left-9 md:left-10 z-0"
+          className="w-auto h-[450px] ssm:h-[550px] relative left-6 ssm:left-8 msm:left-9 md:left-10 z-0"
         />
         </div>
         
         
         {/* Overlay Items */}
-        <div
+        {/* <div
         data-aos="fade-right" className={`absolute z-[9999] left-3 sm:left-1 top-[40%]   space-y-4 h-full w-[80%]  ${user.solutionsTrigger ? "animate-in slide-in-from-left" : ""} `}>
           {solutions.map((solution, index) => (
             <div
@@ -58,7 +58,7 @@ const NationalSolutions = () => {
               </span>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
 
       {/* Text Section */}

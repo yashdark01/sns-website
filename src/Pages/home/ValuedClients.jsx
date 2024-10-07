@@ -16,14 +16,14 @@ const ValuedClients = () => {
 
   const settings = {
     dots: false, // Disable navigation dots for a cleaner look
-  infinite: true, // Enable infinite loop sliding
-  speed: 5000, // Increase speed to make the scrolling continuous
-  slidesToShow: 1, // Number of logos to show at once
-  slidesToScroll: 1, // Number of slides to scroll at a time
-  autoplay: true, // Enable auto-slide
-  autoplaySpeed: 0, // Set to 0 for continuous effect
-  cssEase: 'linear', // Linear easing for smooth continuous scroll
-    
+    infinite: true, // Enable infinite loop sliding
+    speed: 6000, // Slow down the speed a little (6000ms)
+    slidesToShow: 1, // Number of logos to show at once
+    slidesToScroll: 1, // Number of slides to scroll at a time
+    autoplay: true, // Enable auto-slide
+    autoplaySpeed: 0, // Set to 0 for continuous effect
+    cssEase: 'linear', // Linear easing for smooth continuous scroll
+    rtl: false, // Reverse the slide direction to move from left to right
   };
 
   return (

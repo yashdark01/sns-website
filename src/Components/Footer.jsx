@@ -3,7 +3,7 @@ import logo from "../../public/image262.png";
 
 const Footer = () => {
   return (
-    <div className="bg-black/75 relative min-w-full  text-white py-12">
+    <div className="bg-black/75 relative min-w-full text-white py-12 -top-[72px] -mb-[72px] left-16.5">
       <div className="container relative z-0 overflow-hidden mx-auto py-24 ssm:py-28 msm:py-36 px-6 md:px-12 lg:px-24 grid gap-[5%] ssm:gap-[10%] grid-cols-1 md:grid-cols-3 ">
         {/* Logo and Description Section */}
         <div className="h-[300px] overflow-hidden">
