@@ -17,16 +17,7 @@ export default {
       },
       fontFamily: {
         dubai: ['"Dubai"', 'sans-serif'],
-      },
-      keyframes: {
-        colorChange: {
-          '0%, 100%': { color: '#026896' },
-          '50%': { color: 'white' },
-        },
-      },
-      animation: {
-        colorChange: 'colorChange 3s infinite',
-      },
+      }
     },
   },
   plugins: [
