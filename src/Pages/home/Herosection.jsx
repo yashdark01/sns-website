@@ -33,7 +33,7 @@ const HeroSection = () => {
         <span className="h-16 msm:h-20 md:h-24 llg:h-40 transition-all duration-1000">
           <p
             className={`${
-              intervalId ? "text-white" : "text-[#026896]"
+              intervalId ? "text-white" : "text-[#425AE2]"
             } transition-all duration-500 ease-in-out text-3xl sm:text-4xl msm:text-4xl md:text-5xl lg:text-6xl llg:text-8xl font-semibold pt-2 scroll-none overflow-hidden`}
           >
             Solutions
