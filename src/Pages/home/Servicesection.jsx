@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import Button from "../../Components/Button.jsx";
+import {ButtonOne, ButtonTwo} from "../../Components/Button.jsx";
 import UserContext from "../../context/UserContext";
 import { HiOutlineChartBar } from "react-icons/hi";
 import { HiOutlineChip } from "react-icons/hi";
@@ -66,7 +66,7 @@ const ServicesSection = () => {
               in identifying, implementing, and supporting SAP systems tailored
               to your needs. We help you transform and optimize your operations.
             </p>
-            <Button text={"Know More"} />
+            <ButtonOne text={"Know More"} />
           </div>
           {/* Service Card 1 */}
         <div 
@@ -81,7 +81,7 @@ const ServicesSection = () => {
           <p className="mt-2 text-gray-600">
             Tailored Solutions To Meet Your Business Needs
           </p>
-          <Button text={"Explore More"} value={true} />
+          <ButtonTwo text={"Explore More"} value={true} />
         </div>
 
         {/* Service Card 2 */}
@@ -94,7 +94,7 @@ const ServicesSection = () => {
           <p className="mt-2 text-gray-600">
             Comprehensive Training Programs To Empower Your Team
           </p>
-          <Button text={"Explore More"} value={true} />
+          <ButtonTwo text={"Explore More"} value={true} />
         </div>
 
         {/* Service Card 3 */}
@@ -110,7 +110,7 @@ const ServicesSection = () => {
           <p className="mt-2 text-gray-600">
             Expert Management For Successful Project Execution
           </p>
-          <Button text={"Explore More"} value={true} />
+          <ButtonTwo text={"Explore More"} value={true} />
         </div>
 
         {/* Service Card 4 */}
@@ -124,7 +124,7 @@ const ServicesSection = () => {
           <p className="mt-2 text-gray-600">
             Tailored Solutions To Meet Your Business Needs
           </p>
-          <Button text={"Explore More"} value={true} />
+          <ButtonTwo text={"Explore More"} value={true} />
         </div>
 
         {/* Service Card 5 */}
@@ -138,7 +138,7 @@ const ServicesSection = () => {
           <p className="mt-2 text-gray-600">
             Tailored Solutions To Meet Your Business Needs
           </p>
-          <Button text={"Explore More"} value={true} />
+          <ButtonTwo text={"Explore More"} value={true} />
         </div>
         </div>
       }

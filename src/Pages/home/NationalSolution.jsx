@@ -1,12 +1,13 @@
 import { useContext, useEffect } from "react";
 import UserContext from "../../context/UserContext";
-import Button from "../../Components/Button"
+import {ButtonOne} from "../../Components/Button"
 import solutionimg from"../../../public/Rectangle 13.png"
-
+import { BsGraphUpArrow } from "react-icons/bs";
+import { GiProcessor } from "react-icons/gi";
 const solutions = [
-    { title: 'Supporting Saudi Vision 2030', icon: 'a',  },
-    { title: 'Sustainable Growth', icon: 'b' },
-    { title: 'Innovation', icon: 'c' },
+    { title: 'Supporting Saudi Vision 2030', icon: '2023 vision'  },
+    { title: 'Sustainable Growth', icon: <BsGraphUpArrow className="size-8 "/> },
+    { title: 'Innovation', icon: <GiProcessor className="size-8"/> },
   ];
 
 
@@ -46,13 +47,13 @@ const NationalSolutions = () => {
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className={`bg-blue-100 p-2 esm:p-3 ssm:p-4 rounded-lg flex justify-center items-center shadow-md  max-w-[70%] llg:max-w-[60%]`}
+              className={`bg-blue-100 p-2 esm:px-3 ssm:px-4 rounded-lg flex justify-center items-center shadow-md  max-w-[80%] llg:max-w-[60%]`}
               style={{ marginLeft: `${index * 10}%` }}
             >
               <span className="text-gray-800 text-xs md:text-base font-semibold w-full">
                 {solution.title}
               </span>
-              <span className="ml-2 bg-blue-500 text-white text-xs rounded-full px-2 py-0.5">
+              <span className="ml-2 bg-[#04AFFC] text-[0.5rem]  flex justify-center items-center size-8 px-2 text-white  rounded-full ">
                 {solution.icon}
               </span>
             </div>
@@ -72,7 +73,7 @@ const NationalSolutions = () => {
         <p className="text-xs esm:text-sm ssm:text-base  ms:text-lg llg:text-xl xl:text-2xl  text-gray-600 font-light mt-4">
           For a seamless and successful ERP deployment, we specialize in methodically developing a blueprint based on your specific business as well as Industry Best Practices. We always remain by your side throughout the engagement to ensure you get the most out of your technological investment.
         </p>
-        <Button text={"Know More"} value={false}  />
+        <ButtonOne text={"Know More"} value={false}  />
       </div>
     </div>
   );

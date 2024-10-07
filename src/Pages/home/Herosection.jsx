@@ -1,12 +1,13 @@
 import React from "react";
 import heroimg from "../../../public/demo.png";
+import { TbSettings } from "react-icons/tb";
 const HeroSection = () => {
   return (
     <div
-      className="relative -top-52 ssm:-top-44  sm:-top-48  lg:-top-[88px] overflow-hidden bg-cover bg-center h-[800px] ssm:h-[750px] msm:h-[700px]  md:h-[1000px] lg:h-[804px] llg:h-[1000px] "
+      className="relative -top-52 ssm:-top-44  sm:-top-48  lg:-top-[88px] overflow-hidden bg-cover bg-center h-[800px] ssm:h-[750px] msm:h-[700px]  md:h-[1000px] lg:h-[830px] llg:h-[1000px] "
       style={{ backgroundImage: `url(${heroimg})` }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      
 
       <div className=" relative container overflow-hidden mx-auto py-8  ssm:py-16 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40  flex flex-col items-start justify-center text-left h-full">
         {/* Main Heading */}
@@ -34,25 +35,36 @@ const HeroSection = () => {
         </a>
           <div className="absolute bottom-32 ssm:bottom-36 msm:bottom-28 md:bottom-36 lg:bottom-0  container    py-5  sm:py-12 md:py-16   flex justify-start   w-full lg:w-1/2 ">
             <div className="text-white text-left w-full">
-              <h3 className="text-lg ssm:text-xl msm:text-2xl md:text-4xl llg:text-5xl font-bold w-full">
-                300+
-              </h3>
+              <span className = "flex">  
+                <h3 className="text-lg ssm:text-xl msm:text-2xl md:text-4xl llg:text-5xl font-bold w-full">
+                300
+                <span className=" text-lg ssm:text-xl msm:text-2xl md:text-4xl llg:text-5xl font-bold text-[#026896]">+</span>
+                </h3>
+              </span>
               <p className="text-sm sm:text-lg md:text-xl llg:text-2xl">
                 Happy Clients
               </p>
+              
+              
             </div>
             <div className="text-white text-left w-full ">
-              <h3 className="text-lg ssm:text-xl sm:text-2xl md:text-4xl llg:text-5xl font-bold w-full">
-                80+
-              </h3>
+            <span className = "flex">  
+                <h3 className="text-lg ssm:text-xl msm:text-2xl md:text-4xl llg:text-5xl font-bold w-full">
+                80
+                <span className=" text-lg ssm:text-xl msm:text-2xl md:text-4xl llg:text-5xl font-bold text-[#026896]">+</span>
+                </h3>
+              </span>
               <p className="text-sm sm:text-lg md:text-xl llg:text-2xl">
                 Amazing Projects
               </p>
             </div>
             <div className="text-white text-left w-full ">
-              <h3 className="text-lg ssm:text-xl sm:text-2xl md:text-4xl llg:text-5xl font-bold w-full">
-                20+
-              </h3>
+            <span className = "flex">  
+                <h3 className="text-lg ssm:text-xl msm:text-2xl md:text-4xl llg:text-5xl font-bold w-full">
+                20
+                <span className=" text-lg ssm:text-xl msm:text-2xl md:text-4xl llg:text-5xl font-bold text-[#026896]">+</span>
+                </h3>
+              </span>
               <p className="text-sm sm:text-lg md:text-xl llg:text-2xl ">
                 Awards Winning
               </p>
@@ -68,9 +80,15 @@ const HeroSection = () => {
             Project
           </h3>
         </div>
-        <div className=" ">
-          <p className="text-xs md:text-base llg:text-lg p-1">25 Years</p>
+        <div className=" flex">
+          <span>
+            <p className="text-xs md:text-base llg:text-lg p-1">25 Years</p>
           <p className="text-xs md:text-lg llg:text-2xl p-1"> Operated</p>
+          </span>
+          <span>
+            <TbSettings className="lg:size-5 llg:size-7"/>
+          </span>
+
         </div>
         <div className=" w-1/3 msm:w-2/3 md:w-1/2 lg:w-1/2">
           <p className="text-[0.6rem] sm:text-sm md:text-base llg:text-lg  md:ml-4  ">

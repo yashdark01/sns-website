@@ -1,18 +1,21 @@
 import React from "react";
 import { IoPricetagOutline } from "react-icons/io5";
+import lineElement from '../../../public/line-element.png'
+import Group1000002873 from '../../../public/Group 1000002873.png'
 
 const Innovation = () => {
   return (
     <div className="relative container min-w-full my-16 esm:my-20 ssm:my-24 msm:my-32 py-12 esm:py-14 ssm:py-16 msm:py-20 px-2 esm:px-3 ssm:px-4 msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col justify-center items-center bg-gradient-to-r from-[#04AFFC] to-[#026896] text-white">
       <div className="absolute top-0 left-0 w-full h-full z-0">
-        {/* Add SVGs or background images here */}
-        <div className="absolute top-12 left-4 w-16 h-16 bg-white rounded-full opacity-20"> </div>
-        <div className="absolute bottom-4 right-4 w-16 h-16 bg-white rounded-full opacity-20"> </div>
-        <div className="absolute top-[20%] left-8 w-32 h-32 bg-[#026896] rounded-full opacity-30"> </div>
-        <div className="absolute bottom-12 right-12 w-16 h-16 bg-white rounded-full opacity-20"> </div>
-        <div className="absolute top-12 right-16 w-32 h-32 bg-white rounded-full opacity-20"> </div>
-        <div className="absolute top-[50%] right-12 w-32 h-32 bg-[#026896] rounded-full opacity-20"> </div>
-        <div className="absolute top-12 left-12 w-6 h-6 bg-white opacity-60"></div>
+        
+        <div className="absolute  top-[20%] right-[9%] size-44 bg-[#026896] rounded-full opacity-80"> </div> 
+        <div className="absolute top-[14%] right-[4%] size-36 bg-[#65bce4] rounded-full opacity-20"> </div>
+        <div className="absolute top-[15%] right-[1%] z-20">
+          <img className="" src={lineElement} alt="" />
+        </div>
+        <div className="absolute top-[8%] left-[5%] z-20">
+          <img className="" src={Group1000002873} alt="" />
+        </div>
       </div>
       <div className=" container mx-auto flex flex-col justify-center items-center">
         <h2 className="text-xl esm:text-2xl ssm:text-3xl msm:text-4xl sm:text-4xl md:text-5xl lg:text-6xl llg:text-7xl font-semibold mb-8 text-center w-full lg:w-3/4">
