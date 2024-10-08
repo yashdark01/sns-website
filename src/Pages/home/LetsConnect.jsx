@@ -4,7 +4,7 @@ import lineElement from '../../../public/line-element.png'
 
 const LetsConnect = () => {
   return (
-    <div className="absolute z-50 overflow-hidden h-auto container mx-auto mt-6 ssm:mt-0 py-6 esm:py-8 ssm:py-10 msm:py-12 md:py-16 px-3 ssm:px-4 msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 bg-gradient-to-r from-[#04AFFC] to-[#026896] rounded-3xl">
+    <div className="absolute z-[99999999] overflow-hidden h-auto container mx-auto mt-6 ssm:mt-0 py-6 esm:py-8 ssm:py-10 msm:py-12 md:py-16 px-3 ssm:px-4 msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 bg-gradient-to-r from-[#04AFFC] to-[#026896] rounded-3xl">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full z-0">
         <div className="absolute bottom-[4%] right-[4%] size-36 bg-[#026896] rounded-full opacity-100"></div> 

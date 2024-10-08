@@ -15,7 +15,7 @@ const Home = () => {
       <section id="heroSection" className="h-full z-30 lg:h-auto">
         <HeroSection />
       </section>
-      <div className=" relative z-40 -top-44 ssm:-top-36 msm:-top-40  md:-top-36 lg:top-0">
+      <div className=" relative overflow-hidden z-40 -top-44 ssm:-top-36 msm:-top-40  md:-top-36 lg:top-0">
         <section id="aboutSection">
           <AboutSection />
         </section>
@@ -37,7 +37,7 @@ const Home = () => {
         <section id="valuedClients">
           <ValuedClients />
         </section>
-        <section id="letsConnect">
+        <section className="container mx-auto relative mt-16 md:mt-0 h-[400px] sm:h-[500px] md:h-96" id="letsConnect">
           <LetsConnect />
         </section>
       </div>

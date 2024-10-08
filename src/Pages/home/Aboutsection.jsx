@@ -7,7 +7,7 @@ import { TfiLayoutLineSolid } from "react-icons/tfi";
 
 const AboutSection = () => {
   return (
-    <div className="bg-white h-full min-w-full relative ">
+    <div className="bg-white h-full min-w-full relative  ">
       
       <div className="container mx-auto pt-8 mb-2 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col md:flex-row gap-8 items-center">
         <div className="md:w-1/2 space-y-6">
