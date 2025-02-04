@@ -16,18 +16,18 @@ const ValuedClients = () => {
 
   const settings = {
     dots: false, // Disable navigation dots for a cleaner look
-  infinite: true, // Enable infinite loop sliding
-  speed: 5000, // Increase speed to make the scrolling continuous
-  slidesToShow: 1, // Number of logos to show at once
-  slidesToScroll: 1, // Number of slides to scroll at a time
-  autoplay: true, // Enable auto-slide
-  autoplaySpeed: 0, // Set to 0 for continuous effect
-  cssEase: 'linear', // Linear easing for smooth continuous scroll
-    
+    infinite: true, // Enable infinite loop sliding
+    speed: 6000, // Slow down the speed a little (6000ms)
+    slidesToShow: 1, // Number of logos to show at once
+    slidesToScroll: 1, // Number of slides to scroll at a time
+    autoplay: true, // Enable auto-slide
+    autoplaySpeed: 0, // Set to 0 for continuous effect
+    cssEase: 'linear', // Linear easing for smooth continuous scroll
+    rtl: false, // Reverse the slide direction to move from left to right
   };
 
   return (
-    <div className=" min-w-full relative bg-white  my-8 esm:my-12 msm:my-16 md:my-36 lg:my-44">
+    <div className=" min-w-full relative bg-white my-6  ssm:my-8  msm:my-16 md:my-36 lg:my-44">
         <img src={frame1} alt="" className='absolute min-w-full h-full' />
       <div className=" container  space-y-8 text-center  min-w-full py-24 lg:py-36">
 
@@ -44,7 +44,7 @@ const ValuedClients = () => {
             <Slider {...settings} className="mt-10 min-w-full">
           {clients.map((client, index) => (
             <div key={index} className="flex flex-col justify-center gap-4 items-center min-w-full">
-             <img src={frame2} alt="" className=' h-16 ssm:h-20 md:h-24 w-full' />
+             <img src={frame2} alt="" className=' h-16 ssm:h-20 md:h-24 lg:h-32 llg:h-40 w-full' />
             </div>
           ))}
         </Slider>

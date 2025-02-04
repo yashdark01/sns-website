@@ -17,7 +17,7 @@ export default {
       },
       fontFamily: {
         dubai: ['"Dubai"', 'sans-serif'],
-      },
+      }
     },
   },
   plugins: [
