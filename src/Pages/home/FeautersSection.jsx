@@ -14,19 +14,19 @@ const FeaturesSection = () => {
     const features = [
         {
             title: "Proven Expertise and Success",
-            icon: <HiLink className="size-12 msm:size-16 text-white"/> , // Replace with actual icon path
+            icon: <HiLink className="size-12 msm:size-16 text-white"/> , 
             animation: user.aboutTrigger ? "animate-in slide-in-from-top" : "",
             aosAnimation :"fade-up",
         },
         {
             title: "Comprehensive Technology and Business Consulting",
-            icon: <HiLink className="size-12 msm:size-16 text-white"/>, // Replace with actual icon path
+            icon: <HiLink className="size-12 msm:size-16 text-white"/>, 
             animation: user.aboutTrigger ? "animate-in slide-in-from-bottom " : "",
             aosAnimation :"fade-down",
         },
         {
             title: "Alignment with Vision 2030",
-            icon: <HiLink className="size-12 msm:size-16 text-white"/>, // Replace with actual icon path
+            icon: <HiLink className="size-12 msm:size-16 text-white"/>, 
             animation: user.aboutTrigger ? "animate-in slide-in-from-top " : "",
             aosAnimation :"fade-up",
         },
