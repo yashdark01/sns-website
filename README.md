@@ -1,5 +1,7 @@
 # SNS Website
 
+[![CI](https://github.com/yashdark01/sns-website/actions/workflows/ci.yml/badge.svg)](https://github.com/yashdark01/sns-website/actions/workflows/ci.yml)
+
 Corporate marketing website for **SNS** — SAP digital transformation, ERP solutions, and enterprise consulting. Built with React, Vite, Tailwind CSS, AOS scroll animations, and responsive single-page sections.
 
 **Live:** [sns-website-nine.vercel.app](https://sns-website-nine.vercel.app/)  
