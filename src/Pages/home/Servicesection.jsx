@@ -1,21 +1,13 @@
-import React, { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { ButtonOne, ButtonTwo } from "../../Components/Button.jsx";
 import UserContext from "../../context/UserContext";
-import { HiOutlineChartBar, HiOutlineChip } from "react-icons/hi";
-import { HiMiniServerStack } from "react-icons/hi2";
-import { GrDocumentConfig } from "react-icons/gr";
-import SAPLogo from '../../assets/SAP.png';
-import projectMng from '../../assets/projectMng.png';
-import SAPsupport from '../../assets/SAPsupport.png';
+import { HiOutlineChip } from "react-icons/hi";
+import SAPLogo from "../../assets/SAP.png";
+import projectMng from "../../assets/projectMng.png";
+import SAPsupport from "../../assets/SAPsupport.png";
 
 const ServicesSection = () => {
   const { user } = useContext(UserContext);
-
-  useEffect(() => {
-    if (user.servicesTrigger) {
-      console.log("Services section triggered!");
-    }
-  }, [user.servicesTrigger]);
 
   const serviceCards = [
     {
@@ -65,7 +57,7 @@ const ServicesSection = () => {
             Our Services
           </h2>
           <p className="text-sm llg:text-base font-semibold mt-2 text-gray-800">
-            Unlock your business's potential with our Digital Transformation
+            Unlock your business&apos;s potential with our Digital Transformation
             Solutions and Services. Certified and experienced, we specialize
             in identifying, implementing, and supporting SAP systems tailored
             to your needs. We help you transform and optimize your operations.

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import { useContext } from "react";
 import {ButtonOne} from "../../Components/Button.jsx";
 import { IoPricetagOutline } from "react-icons/io5";
 import { PiClockCountdownBold } from "react-icons/pi";
@@ -15,17 +15,7 @@ const services = [
 
 
 const Solutions = () => {
-  
     const {user} = useContext(UserContext);
-
-    useEffect(() => {
-      
-        if(user.solutionsTrigger)
-        {
-            console.log("Solution Section triggered !");
-            
-        }
-    }, [user.solutionsTrigger]);
     
   return (
     <div className=" container relative z-50 mx-auto ssm:py-8 md:py-16 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40  bg-white">

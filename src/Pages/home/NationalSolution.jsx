@@ -1,28 +1,11 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import UserContext from "../../context/UserContext";
 import {ButtonOne} from "../../Components/Button"
 import National from '../../assets/National.png'
-import { BsGraphUpArrow } from "react-icons/bs";
-import { GiProcessor } from "react-icons/gi";
-const solutions = [
-    { title: 'Supporting Saudi Vision 2030', icon: '2023 vision'  },
-    { title: 'Sustainable Growth', icon: <BsGraphUpArrow className="size-8 "/> },
-    { title: 'Innovation', icon: <GiProcessor className="size-8"/> },
-  ];
-
 
 const NationalSolutions = () => {
 
   const {user} = useContext(UserContext);
-
-    useEffect(() => {
-      
-        if(user.solutionsTrigger)
-        {
-            console.log("Solution Section triggered !");
-            
-        }
-    }, [user.solutionsTrigger]);
 
   return (
     <div className="container  h-full mx-auto bg-white py-8 ssm:py-10 msm:py-12 px-2 esm:px-3 ssm:px-4   msm:px-6 md:px-10 lg:px-14 llg:px-28 xl:px-40 flex flex-col lg:flex-row items-center space-y-12 md:space-y-8 lg:space-y-0 lg:space-x-12 ">

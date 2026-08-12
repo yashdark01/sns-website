@@ -1,15 +1,9 @@
-import React, { useContext, useEffect } from "react";
+import { useContext } from "react";
 import UserContext from "../../context/UserContext";
 import { HiLink } from "react-icons/hi2";
 
 const FeaturesSection = () => {
     const { user } = useContext(UserContext);
-
-    useEffect(() => {
-        if (user.aboutTrigger) {
-            console.log("Feature section triggered!");
-        }
-    }, [user.aboutTrigger]);
 
     const features = [
         {
